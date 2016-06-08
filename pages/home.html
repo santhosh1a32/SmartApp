@@ -1,0 +1,69 @@
+<style type="text/css">
+	.demo-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 100px;
+}
+.card {
+    position: relative;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border: .0625rem solid #e5e5e5;
+    border-radius: .25rem;
+}
+.card-primary {
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+.card-blockquote {
+    padding: 0;
+    margin-bottom: 0;
+    border-left: 0;
+}
+.card-inverse .card-blockquote {
+    color: #fff;
+    height: 100px;
+}
+.card-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+.card-info {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+.text-14{
+	font-size: 14px;
+}
+</style>
+<div class="jumbotron text-center">
+	<div class="demo-card">
+    <div class="card card-inverse card-primary text-center">
+        <a href="" ng-click="bpDetails()" class="card-block" style="text-decoration: none;">
+            <blockquote class="card-blockquote">
+                <h3>Blood Pressure</h3>
+                <div class="text-14">Systolic: <span>120</span></div>
+                <div class="text-14">Diastolic: <span>80</span></div>
+            </blockquote>
+        </a>
+    </div>
+    <div class="card card-inverse card-success text-center">
+        <a href="" ng-click="hrDetails()" class="card-block" style="text-decoration: none;">
+            <blockquote class="card-blockquote">
+                <h3>Heart Rate</h3>
+                <div class="text-14">90 Bpm</div>
+            </blockquote>
+        </a>
+    </div>
+    <div class="card card-inverse card-info text-center">
+        <a href="" ng-click="activityDetails()" class="card-block" style="text-decoration: none;">
+            <blockquote class="card-blockquote">
+                <h3>Activity</h3>
+                <div class="text-14">Steps: <span>30000</span></div>
+                <div class="text-14">Distance: <span>0.3 km</span></div>
+            </blockquote>
+        </a>
+    </div>
+    <div>Your are Fit.. Keep Smiling</div>
+</div>
+</div>
